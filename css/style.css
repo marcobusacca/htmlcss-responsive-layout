@@ -41,6 +41,17 @@ body{
             margin: 20px;
         }
     /* FINE FIRST SECTION */
+    /* SECOND SECTION */
+        #second-section{
+            background-color: #9792E4;
+        }
+
+        #second-section .col{
+            width: calc(100% - 40px);
+            height: 200px;
+            margin: 20px;
+        }
+    /* FINE SECOND SECTION */
 /* FINE MAIN */
 
 /* LAYOUT */
