@@ -383,8 +383,21 @@ a{
 
     footer .col{
         width: calc(100% - 40px);
-        height: 200px;
-        margin: 20px;
+        margin: 40px 20px;
+    }
+
+    .footer-content > p, span{
+        font-size: 13.5px;
+    }
+
+    .footer-content > span{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .footer-content > span > a{
+        color: #5e55b7;
+        text-decoration: underline;
     }
 /* FINE FOOTER */
 
@@ -398,29 +411,25 @@ a{
         display: flex;
         flex-flow: column wrap;
     }
-
-    .col{
-        /* border: 2px dashed black; */
-    }
 /* FINE LAYOUT */
 
 /* UTILITIES */
     /* BGCOLOR */
-    .bgcolor-violet{
-        background-color: #9792E4;
-    }
+        .bgcolor-violet{
+            background-color: #9792E4;
+        }
 
-    .bgcolor-blue{
-        background-color: #0084FD;
-    }
+        .bgcolor-blue{
+            background-color: #0084FD;
+        }
 
-    .bgcolor-lightblue{
-        background-color: #B5DDFF;
-    }
+        .bgcolor-lightblue{
+            background-color: #B5DDFF;
+        }
 
-    .bgcolor-white{
-        background-color: #FFFFFF;
-    }
+        .bgcolor-white{
+            background-color: #FFFFFF;
+        }
     /* FINE BGCOLOR */
 
     /* TEXT COLOR */
