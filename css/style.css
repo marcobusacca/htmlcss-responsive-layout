@@ -62,6 +62,13 @@ body{
             margin: 20px;
         }
     /* FINE BENEFITS SECTION */
+    /* ABOUT US SECTION */
+        #about-us-section .col{
+            width: calc(100% - 40px);
+            height: 200px;
+            margin: 20px;
+        }
+    /* ABOUT US SECTION */
 /* FINE MAIN */
 
 /* LAYOUT */
