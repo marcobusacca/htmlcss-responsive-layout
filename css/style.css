@@ -8,10 +8,11 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* HEADER */
-    header{
-        background-color: #0084FD;
-    }
     /* HEADER COL */
         header .col{
             width: calc(100% - 40px);
@@ -38,8 +39,60 @@ body{
     /* FIRST SECTION */
         #first-section .col{
             width: calc(100% - 40px);
-            height: 200px;
-            margin: 20px;
+            margin: 20px 20px 10px;
+            border-radius: 25px;
+        }
+
+        #first-section .col:first-child{
+            margin-top: 50px;
+        }
+
+        #first-section .col:last-child{
+            margin-bottom: 80px;
+        }
+
+        .first-section-content{
+            padding: 20px 20px 0 20px;
+        }
+
+        .first-section-content p{
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        .first-section-content a{
+            padding: 10px 50px;
+            border-radius: 20px;
+        }
+
+        .first-section-content a > i{
+            margin: 40px 0px;
+            padding-right: 5px;
+        }
+
+        .first-section-content img{
+            width: 100%;
+            position: relative;
+            top: 0.3rem;
+        }
+
+        .first-section-content-2{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+
+        .first-section-content-2 > i{
+            padding: 55px 0 40px;
+            font-size: 80px;
+        }
+
+        .first-section-content-2 > h2{
+            margin-top: 25px;
+        }
+
+        .first-section-content-2 > p{
+            margin-bottom: 30px;
         }
     /* FINE FIRST SECTION */
 
@@ -108,12 +161,48 @@ body{
     }
 
     .col{
-        border: 2px dashed black;
+        /* border: 2px dashed black; */
     }
 /* FINE LAYOUT */
 
 /* UTILITIES */
+    /* BGCOLOR */
     .bgcolor-violet{
         background-color: #9792E4;
     }
+
+    .bgcolor-blue{
+        background-color: #0084FD;
+    }
+
+    .bgcolor-lightblue{
+        background-color: #B5DDFF;
+    }
+    /* FINE BGCOLOR */
+
+    /* TEXT COLOR */
+        .txt-blue{
+            color: #0084FD;
+        }
+
+        .txt-grey{
+            color: #5A6E7F;
+        }
+
+        .txt-white{
+            color: #fff;
+        }
+    /* FINE TEXT COLOR */
+
+    /* FONT WEIGHT */
+        .bold{
+            font-weight: 700;
+        }
+    /* FINE FONT WEIGHT */
+
+    /* TEXT ALIGN */
+        .txt-center{
+            text-align: center;
+        }
+    /* FINE TEXT ALIGN */
 /* FINE UTILITIES */
