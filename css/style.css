@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* HEADER */
@@ -42,10 +42,6 @@ body{
         }
     /* FINE FIRST SECTION */
     /* SECOND SECTION */
-        #second-section{
-            background-color: #9792E4;
-        }
-
         #second-section .col{
             width: calc(100% - 40px);
             height: 200px;
@@ -59,6 +55,13 @@ body{
             margin: 20px;
         }
     /* FINE TESTIMONIALS SECTION */
+    /* BENEFITS SECTION */
+        #benefits-section .col{
+            width: calc(100% - 40px);
+            height: 200px;
+            margin: 20px;
+        }
+    /* FINE BENEFITS SECTION */
 /* FINE MAIN */
 
 /* LAYOUT */
@@ -76,3 +79,8 @@ body{
         border: 2px dashed black;
     }
 /* FINE LAYOUT */
+/* UTILITIES */
+    .bgcolor-violet{
+        background-color: #9792E4;
+    }
+/* FINE UTILITIES */
