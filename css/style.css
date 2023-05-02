@@ -68,7 +68,14 @@ body{
             height: 200px;
             margin: 20px;
         }
-    /* ABOUT US SECTION */
+    /* FINE ABOUT US SECTION */
+    /* GET STARTED SECTION */
+        #get-started-section .col{
+            width: calc(100% - 40px);
+            height: 350px;
+            margin: 20px;
+        }
+    /* FINE GET STARTED SECTION */
 /* FINE MAIN */
 
 /* LAYOUT */
