@@ -172,6 +172,7 @@ a{
 
         .testimonials-content > span{
             display: block;
+            font-size: 15px;
             padding-top: 30px;
         }
 
