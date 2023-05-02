@@ -153,9 +153,79 @@ a{
     /* TESTIMONIALS SECTION */
         #testimonials-section .col{
             width: calc(100% - 40px);
-            height: 200px;
-            margin: 20px;
+            margin: 15px 20px;
         }
+
+        #testimonials-section .col:not(:first-child){
+            border-radius: 50px;
+        }
+
+        #testimonials-section .col:last-child{
+            margin-bottom: 100px;
+        }
+
+        .testimonials-content{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+
+        .testimonials-content > span{
+            display: block;
+            padding-top: 30px;
+        }
+
+        .testimonials-content > h2{
+            font-size: 28px;
+            padding: 25px 0;
+        }
+
+        .testimonials-content > p{
+            padding: 0 35px;
+            line-height: 1.7;
+        }
+
+        .testimonials-content > p.txt-white{
+            padding: 0 48px;
+            margin-top: 15px;
+        }
+
+        .testimonials-content > p.txt-white > i{
+            vertical-align: baseline;
+        }
+        
+        .testimonials-content > div{
+            margin-top: 30px;
+        }
+
+        .testimonials-content > h3{
+            padding: 20px 0 30px;
+        }
+
+        .testimonials-img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        /* BACKGROUND IMAGE */
+            .testimonials-img-1{
+                background-image: url(../img/testimonial1.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+            .testimonials-img-2{
+                background-image: url(../img/testimonial2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+            .testimonials-img-3{
+                background-image: url(../img/testimonial3.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+        /* FINE BACKGROUND IMAGE */
     /* FINE TESTIMONIALS SECTION */
 
     /* BENEFITS SECTION */
@@ -241,6 +311,10 @@ a{
 
         .txt-white{
             color: #fff;
+        }
+
+        .txt-violet{
+            color: #9792E4;
         }
     /* FINE TEXT COLOR */
 
