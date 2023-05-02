@@ -12,13 +12,18 @@ body{
     header{
         background-color: #0084FD;
     }
+    /* HEADER COL */
+        header .col{
+            width: calc(100% - 40px);
+            margin: 0 20px;
+        }
+    /* FINE HEADER COL */
     /* HEADER CONTENT */
         .header-content{
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
             align-items: center;
-            margin: 0 20px;
             padding: 15px 0;
         }
 
@@ -27,6 +32,16 @@ body{
         }
     /* FINE HEADER CONTENT */
 /* FINE HEADER */
+
+/* MAIN */
+    /* FIRST SECTION */
+        #first-section .col{
+            width: calc(100% - 40px);
+            height: 200px;
+            margin: 20px;
+        }
+    /* FINE FIRST SECTION */
+/* FINE MAIN */
 
 /* LAYOUT */
     .container{
@@ -40,12 +55,6 @@ body{
     }
 
     .col{
-        border: 1px dashed black;
+        border: 2px dashed black;
     }
-
-    /* COL */
-        .col-100{
-            width: 100%;
-        }
-    /* FINE COL */
 /* FINE LAYOUT */
