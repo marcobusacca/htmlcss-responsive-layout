@@ -32,10 +32,27 @@ a{
             align-items: center;
             padding: 15px 0;
         }
+        /* HEADER HAMBURGER */
+            .header-content > i{
+                color: #fff;
+            }
+        /* FINE HEADER HAMBURGER */
 
-        .header-content > i{
-            color: #fff;
-        }
+        /* HEADER MENU */
+            .header-content > nav{
+                display: none;
+            }
+
+            .header-content > nav > a{
+                padding: 0 10px;
+            }
+
+            .header-content > nav > a:last-child{
+                margin-left: 10px;
+                padding: 10px 15px;
+                border-radius: 25px;
+            }
+        /* FINE HEADER MENU */
     /* FINE HEADER CONTENT */
 /* FINE HEADER */
 
@@ -462,6 +479,10 @@ a{
         .txt-orange{
             color: #FDC15F;
         }
+
+        .txt-black{
+            color: black;
+        }
     /* FINE TEXT COLOR */
 
     /* FONT WEIGHT */
@@ -487,6 +508,7 @@ a{
         .row{
             flex-flow: row wrap;
         }
+
         /* FIRST SECTION */
             #first-section{
                 margin: 30px 0 100px;
@@ -536,7 +558,7 @@ a{
             }
         /* FINE SECOND SECTION */
 
-        /* TESTIMONIAL SECTION */
+        /* TESTIMONIALS SECTION */
             /* TESTIMONIALS COL */
                 #testimonials-section .col{
                     width: calc(100% - 40px);
@@ -603,7 +625,7 @@ a{
                     margin-left: 3rem;
                 }
             /* FINE TESTIMONIALS CONTENT */
-        /* FINE TESTIMONIAL SECTION */
+        /* FINE TESTIMONIALS SECTION */
 
         /* BENEFITS SECTION */
                 #benefits-section{
@@ -620,6 +642,11 @@ a{
                     margin: 15px 10px;
                 }
 
+                #benefits-section .col:first-child{
+                    width: 100%;
+                    margin: 0;
+                }
+                
                 #benefits-section .col:last-child{
                     margin-bottom: 15px;
                 }
@@ -698,6 +725,108 @@ a{
         .container{
             max-width: 950px;
         }
+
+        /* HEADER */
+            .header-content > i{
+                display: none;
+            }
+
+            .header-content > nav{
+                display: block;
+            }
+        /* FINE HEADER */
+
+        /* FIRST SECTION */
+            .first-section-content .sub-col:first-child{
+                width: 50%;
+            }
+
+            .first-section-content .sub-col:last-child{
+                width: 50%;
+            }
+
+            .first-section-content img{
+                width: 100%;
+                position: relative;
+                top: 2.3rem;
+            }
+        /* FINE FIRST SECTION */
+
+        /* SECOND SECTION */
+            #second-section{
+                padding: 0 175px;
+                padding-bottom: 50px;
+            }
+
+            #second-section .col{
+                width: calc(50% - 40px);
+                margin: 20px;
+            }
+
+            #second-section .col:last-child{
+                margin-bottom: 20px;
+            }
+
+            .second-section-content > h2{
+                font-size: 30px;
+            }
+        /* FINE SECOND SECTION */
+
+        /* TESTIMONIALS SECTION */
+            .testimonials-content p:not(.txt-white){
+                margin: 0 20px;
+            }
+
+            .testimonials-content p.txt-white{
+                padding: 0 37px 0 0;
+            }
+
+            .testimonials-content h3{
+                margin-left: 0;
+            }
+        /* FINE TESTIMONIALS SECTION */
+
+        /* BENEFITS SECTION */
+            #benefits-section .col{
+                width: calc(100% / 3 - 20px);
+                margin: 15px 10px;
+            }
+
+            #benefits-section .col:first-child{
+                width: 100%;
+                margin: 0;
+            }
+        /* FINE BENEFITS SECTION */
+
+        /* ABOUT US SECTION */
+            #about-us-section .col:first-child{
+                width: calc(70% - 40px);
+            }
+
+            #about-us-section .col:last-child{
+                width: calc(30% - 40px);
+            }
+
+            .about-us-content > p{
+                padding-right: 30px;
+            }
+
+            .about-us-content > p:last-child{
+                padding-right: 30px;
+            }
+        /* FINE ABOUT US SECTION */
+
+        /* GET STARTED SECTION */
+            .get-started-content > p{
+                padding: 0 200px;
+            }
+        /* FINE GET STARTED SECTION */
+
+        /* FOOTER */
+            .footer-content > p, .footer-content > span{
+                padding: 0 265px;
+            }
+        /* FINE FOOTER */
     }
 
     /* LARGE DEKSTOP */
@@ -705,5 +834,36 @@ a{
         .container{
             max-width: 1140px;
         }
+        /* FIRST SECTION */
+            .first-section-content img{
+                width: 85%;
+                position: relative;
+                top: 0.2rem;
+                padding-top: 30px;
+                margin-left: 25px;
+            }
+        /* FINE FIRST SECTION */
+
+        /* ABOUT US SECTION */
+            .about-us-content > p{
+                padding-right: 150px;
+            }
+
+            .about-us-content > p:last-child{
+                padding-right: 170px;
+            }
+        /* FINE ABOUT US SECTION */
+
+        /* GET STARTED SECTION */
+            .get-started-content > p{
+                padding: 0 300px;
+            }
+        /* FINE GET STARTED SECTION */
+
+        /* FOOTER */
+            .footer-content > p, .footer-content > span{
+                padding: 0 360px;
+            }
+        /* FINE FOOTER */
     }
 /* FINE LAYOUT RESPONSIVE */
