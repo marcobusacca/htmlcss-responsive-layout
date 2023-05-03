@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -61,6 +65,7 @@ a{
             }
 
             .first-section-content a{
+                font-size: 20px;
                 padding: 10px 50px;
                 border-radius: 20px;
             }
@@ -111,7 +116,7 @@ a{
         }
         /* SECOND SECTION CONTENT */
             .second-section-content > img{
-                margin-top: 40px;
+                margin-top: 80px;
                 width: 100%;
             }
 
@@ -164,7 +169,7 @@ a{
             margin-bottom: 100px;
         }
 
-        .testimonials-content{
+        .testimonials-content .sub-col{
             display: flex;
             flex-flow: column wrap;
             align-items: center;
@@ -181,25 +186,25 @@ a{
             padding: 25px 0;
         }
 
-        .testimonials-content > p{
+        .testimonials-content p{
             padding: 0 35px;
             line-height: 1.7;
         }
 
-        .testimonials-content > p.txt-white{
+        .testimonials-content p.txt-white{
             padding: 0 47px;
             margin-top: 15px;
         }
 
-        .testimonials-content > p.txt-white > i{
+        .testimonials-content p.txt-white > i{
             vertical-align: baseline;
         }
         
-        .testimonials-content > div{
-            margin-top: 30px;
+        .testimonials-content div{
+            margin-top: 10px;
         }
 
-        .testimonials-content > h3{
+        .testimonials-content h3{
             padding: 20px 0 30px;
         }
 
@@ -360,10 +365,10 @@ a{
 
         .get-started-content > a{
             font-size: 22px;
-            margin: 30px 30px;
-            padding: 16px;
+            margin: 30px 0 0;
+            padding: 20px 80px;
             border-radius: 50px;
-            display: block;
+            display: inline-block;
         }
 
         .get-started-content > span:last-child{
@@ -387,7 +392,7 @@ a{
         margin: 40px 20px;
     }
 
-    .footer-content > p, span{
+    .footer-content > p, .footer-content > span{
         font-size: 13.5px;
     }
 
@@ -471,3 +476,234 @@ a{
         }
     /* FINE TEXT ALIGN */
 /* FINE UTILITIES */
+
+/* LAYOUT RESPONSIVE */
+    /* TABLET */
+    @media screen and (min-width: 768px){
+        .container{
+            max-width: 750px;
+        }
+
+        .row{
+            flex-flow: row wrap;
+        }
+        /* FIRST SECTION */
+            #first-section{
+                margin: 30px 0 100px;
+            }
+
+            #first-section .row{
+                padding: 0 10px;
+            }
+
+            #first-section .col{
+                width: calc(100% / 3 - 20px);
+                margin: 20px 10px 10px;
+            }
+
+            #first-section .col-double{
+                width: calc(100% / 3 * 2 - 20px);
+            }
+
+            #first-section .col:first-child{
+                margin-top: 20px;
+            }
+
+            #first-section .col:last-child{
+                margin-bottom: 10px;
+            }
+
+            .first-section-content .sub-col:last-child{
+                width: 55%;
+            }
+        /* FINE FIRST SECTION */
+
+        /* SECOND SECTION */
+            .second-section-content{
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+            }
+
+            .second-section-content > img{
+                width: 90%;
+                margin: 80px auto 40px;
+            }
+
+            .second-section-content > h2{
+                align-self: flex-start;
+                font-size: 60px;
+            }
+        /* FINE SECOND SECTION */
+
+        /* TESTIMONIAL SECTION */
+            /* TESTIMONIALS COL */
+                #testimonials-section .col{
+                    width: calc(100% - 40px);
+                    margin: 20px;
+                }
+
+                #testimonials-section .col:not(:first-child){
+                    padding: 30px 0 40px;
+                }
+            /* FINE TESTIMONIALS COL */
+
+            /* TESTIMONIALS SUB COL */
+                .testimonials-content .sub-col{
+                    align-items: flex-start;
+                }
+
+                .testimonials-content .sub-col:first-child{
+                    width: 25%;
+                    padding: 0 20px;
+                }
+
+                .testimonials-content .sub-col:last-child{
+                    width: 75%;
+                    padding-top: 15px;
+                }
+            /* FINE TESTIMONIALS SUB COL */
+            
+            /* TESTIMONIALS CONTENT */
+                .testimonials-content > span{
+                    font-size: 20px;
+                    padding-top: 50px;
+                }
+
+                .testimonials-content > h2{
+                    font-size: 36px;
+                }
+
+                .testimonials-content p{
+                    font-size: 17.5px;
+                    padding: 0;
+                }
+
+                .testimonials-content p:not(.txt-white){
+                    margin: 0 15px;
+                }
+
+                .testimonials-content div{
+                    margin: 0;
+                }
+
+                .testimonials-img{
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 50%;
+                }
+
+                .testimonials-content p.txt-white{
+                    padding: 0 37px 0 47px;
+                    text-align: left;
+                }
+
+                .testimonials-content h3{
+                    text-align: left;
+                    margin-left: 3rem;
+                }
+            /* FINE TESTIMONIALS CONTENT */
+        /* FINE TESTIMONIAL SECTION */
+
+        /* BENEFITS SECTION */
+                #benefits-section{
+                    padding: 0 20px 50px;
+                }
+
+                #benefits-section .row{
+                    justify-content: center;
+                    padding: 0 10px;
+                }
+
+                #benefits-section .col{
+                    width: calc(50% - 20px);
+                    margin: 15px 10px;
+                }
+
+                #benefits-section .col:last-child{
+                    margin-bottom: 15px;
+                }
+
+                #benefits-section h2{
+                    font-size: 40px;
+                }
+
+                .benefits-content > p{
+                    padding-right: 0;
+                    font-size: 15px;
+                }
+        /* FINE BENEFITS SECTION */
+
+        /* ABOUT US SECTION */
+            #about-us-section{
+                margin: 60px 0 120px;
+            }
+
+            #about-us-section .col{
+                margin: 20px;
+            }
+
+            #about-us-section .col:first-child{
+                width: calc(60% - 40px);
+            }
+
+            #about-us-section .col:last-child{
+                width: calc(40% - 40px);
+            }
+
+            .about-us-content > h2:nth-child(1){
+                font-size: 60px;
+                margin: 0 0 30px;
+            }
+
+            .about-us-content > p{
+                padding-right: 70px;
+            }
+
+            .about-us-content > p:last-child{
+                margin-top: 40px;
+                padding-right: 50px;
+            }
+
+            .about-us-img{
+                width: 220px;
+                height: 220px;
+                margin-left: 15px;
+            }
+        /* FINE ABOUT US SECTION */
+
+        /* GET STARTED SECTION */
+            .get-started-content > h3{
+                font-size: 45px;
+            }
+
+            .get-started-content > h2{
+                font-size: 90px;
+            }
+
+            .get-started-content > p{
+                padding: 0 100px;
+            }
+        /* FINE GET STARTED SECTION */
+
+        /* FOOTER */
+            .footer-content > p, .footer-content > span{
+                padding: 0 170px;
+            }
+        /* FINE FOOTER */
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 991px){
+        .container{
+            max-width: 950px;
+        }
+    }
+
+    /* LARGE DEKSTOP */
+    @media screen and (min-width: 1200px){
+        .container{
+            max-width: 1140px;
+        }
+    }
+/* FINE LAYOUT RESPONSIVE */

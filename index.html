@@ -18,9 +18,9 @@
     <body>
         <!-- HEADER -->
         <header class="bgcolor-blue">
-            <div class="container">
+            <nav class="container">
                 <div class="row">
-                    <div class="col col-100">
+                    <div class="col">
                         <div class="header-content">
                             <!-- Header Logo -->
                             <img src="./img/logo.png" alt="header-logo">
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <!-- FINE HEADER -->
         <!-- MAIN -->
@@ -38,10 +38,12 @@
             <section id="first-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col bgcolor-lightblue">
+                        <!-- Get a demo application -->
+                        <div class="col col-double bgcolor-lightblue">
                             <div class="first-section-content">
                                 <div class="row">
-                                    <div class="col-2">
+                                    <!-- Get a demo application text -->
+                                    <div class="sub-col">
                                         <h2 class="txt-blue">Get a demo application</h2>
                                         <p class="txt-grey bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
                                         <!-- First Section App Store Button -->
@@ -50,12 +52,14 @@
                                             App Store
                                         </a>
                                     </div>
-                                    <div class="col-2">
+                                    <!-- Get a demo application image -->
+                                    <div class="sub-col">
                                         <img src="./img/phone.png" alt="first-section-img-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Clean Code -->
                         <div class="col bgcolor-lightblue">
                             <div class="first-section-content first-section-content-2 txt-center">
                                 <i class="fa-solid fa-file-code fa-2xl txt-blue"></i>
@@ -63,6 +67,7 @@
                                 <p class="txt-grey bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
                             </div>
                         </div>
+                        <!-- Web Design -->
                         <div class="col bgcolor-lightblue">
                             <div class="first-section-content first-section-content-2 txt-center">
                                 <i class="fa-solid fa-compass-drafting fa-2xl txt-blue"></i>
@@ -70,6 +75,7 @@
                                 <p class="txt-grey bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
                             </div>
                         </div>
+                        <!-- Developement -->
                         <div class="col bgcolor-lightblue">
                             <div class="first-section-content first-section-content-2 txt-center">
                                 <i class="fa-solid fa-laptop-code fa-2xl txt-blue"></i>
@@ -77,6 +83,7 @@
                                 <p class="txt-grey bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
                             </div>
                         </div>
+                        <!-- Branding -->
                         <div class="col bgcolor-lightblue">
                             <div class="first-section-content first-section-content-2 txt-center">
                                 <i class="fa-solid fa-bullhorn fa-2xl txt-blue"></i>
@@ -93,18 +100,24 @@
                     <div class="row">
                         <div class="col">
                             <div class="second-section-content">
+                                <!-- Second Section Image 1 -->
                                 <img src="./img/planning1.png" alt="planning-photo-1">
+                                <!-- Second Section Title 1 -->
                                 <h2 class="txt-white">Strategic Planning</h2>
+                                <!-- Second Section Paragrafo 1 -->
                                 <p class="txt-white">Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras pulvinar mattis.</p>
                             </div>
                         </div>
                         <div class="col bgcolor-white">
                             <div class="second-section-content second-section-content-2 txt-center">
+                                <!-- Second Section Image 2 -->
                                 <img src="./img/planning2.png" alt="planning-photo-2">
+                                <!-- Second Section Title 2 -->
                                 <h3>App developement</h3>
+                                <!-- Second Section Paragrafo 2 -->
                                 <p>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</p>
                                 <!-- Second Section Button -->
-                                <a href="#">
+                                <a href="#get-started-section">
                                     <i class="fa-solid fa-arrow-down-long bgcolor-violet"></i>
                                 </a>
                             </div>
@@ -116,44 +129,76 @@
             <section id="testimonials-section">
                 <div class="container">
                     <div class="row">
+                        <!-- Testimonials Text -->
                         <div class="col">
                             <div class="testimonials-content txt-center">
                                 <span>TESTIMONIALS</span>
+                                <!-- Testimonials Title -->
                                 <h2 class="txt-violet">We are committed expert partners</h2>
                                 <p>We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</p>
                             </div>
                         </div>
+                        <!-- Testimonials Member 1 -->
                         <div class="col bgcolor-violet">
                             <div class="testimonials-content txt-center">
-                                <div class="testimonials-img testimonials-img-1"></div>
-                                <p class="txt-white">
-                                    <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
-                                    Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
-                                    <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
-                                </p>
-                                <h3 class="txt-white">NAT REYNOLDS</h3>
+                                <div class="row">
+                                    <div class="sub-col">
+                                        <!-- Testimonials Image -->
+                                        <div class="testimonials-img testimonials-img-1"></div>
+                                    </div>
+                                    <div class="sub-col">
+                                        <!-- Testimonials Description -->
+                                        <p class="txt-white">
+                                            <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
+                                            Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
+                                            <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
+                                        </p>
+                                        <!-- Testimonials Name -->
+                                        <h3 class="txt-white">NAT REYNOLDS</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- Testimonials Member 2 -->
                         <div class="col bgcolor-violet">
                             <div class="testimonials-content txt-center">
-                                <div class="testimonials-img testimonials-img-2"></div>
-                                <p class="txt-white">
-                                    <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
-                                    Pharetra vel turpis nunc eget lorem. Quisque id diam vel quam elementum pulvinar etiam. Urna porttitor rhoncus dolor purus non enim praesent elementum.
-                                    <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
-                                </p>
-                                <h3 class="txt-white">CELIA ALMEDA</h3>
+                                <div class="row">
+                                    <div class="sub-col">
+                                        <!-- Testimonials Image -->
+                                        <div class="testimonials-img testimonials-img-2"></div>
+                                    </div>
+                                    <div class="sub-col">
+                                        <!-- Testimonials Description -->
+                                        <p class="txt-white">
+                                            <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
+                                            Pharetra vel turpis nunc eget lorem. Quisque id diam vel quam elementum pulvinar etiam. Urna porttitor rhoncus dolor purus non enim praesent elementum.
+                                            <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
+                                        </p>
+                                        <!-- Testimonials Name -->
+                                        <h3 class="txt-white">CELIA ALMEDA</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- Testimonials Member 3 -->
                         <div class="col bgcolor-violet">
                             <div class="testimonials-content txt-center">
-                                <div class="testimonials-img testimonials-img-3"></div>
-                                <p class="txt-white">
-                                    <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
-                                    Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. Nibh nisl condimentum id venenatis a condimentum.
-                                    <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
-                                </p>
-                                <h3 class="txt-white">BOB ROBERTS</h3>
+                                <div class="row">
+                                    <div class="sub-col">
+                                        <!-- Testimonials Image -->
+                                        <div class="testimonials-img testimonials-img-3"></div>
+                                    </div>
+                                    <div class="sub-col">
+                                        <!-- Testimonials Description -->
+                                        <p class="txt-white">
+                                            <i class="fa-solid fa-quote-left fa-lg txt-white"></i>
+                                            Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. Nibh nisl condimentum id venenatis a condimentum.
+                                            <i class="fa-solid fa-quote-right fa-lg txt-white"></i>
+                                        </p>
+                                        <!-- Testimonials Name -->
+                                        <h3 class="txt-white">BOB ROBERTS</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -164,6 +209,7 @@
                 <div class="container">
                     <div class="row">
                         <h2 class="txt-white txt-center">Benefits of working with us</h2>
+                        <!-- Hight Quality -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">01</span>
@@ -172,6 +218,7 @@
                                 <a href="#" class="txt-white bgcolor-violet bold">more</a>
                             </div>
                         </div>
+                        <!-- Creative Team -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">02</span>
@@ -180,6 +227,7 @@
                                 <a href="#" class="txt-white bgcolor-violet bold">more</a>
                             </div>
                         </div>
+                        <!-- Amazing Results -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">03</span>
@@ -188,6 +236,7 @@
                                 <a href="#" class="txt-white bgcolor-violet bold">more</a>
                             </div>
                         </div>
+                        <!-- Best Pricing -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">04</span>
@@ -196,6 +245,7 @@
                                 <a href="#" class="txt-white bgcolor-violet bold">more</a>
                             </div>
                         </div>
+                        <!-- Innovations -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">05</span>
@@ -204,6 +254,7 @@
                                 <a href="#" class="txt-white bgcolor-violet bold">more</a>
                             </div>
                         </div>
+                        <!-- 24/7 Support -->
                         <div class="col bgcolor-white">
                             <div class="benefits-content">
                                 <span class="txt-violet bold">06</span>
@@ -221,6 +272,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="about-us-content">
+                                <!-- About Us Title 1 -->
                                 <h2 class="txt-violet">About Us</h2>
                                 <!-- About Us Paragrafo 1 -->
                                 <p>Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum velit euismod in pellentesque massa placerat duis.</p>
@@ -234,6 +286,7 @@
                                 <div class="about-us-img">
                                     <i class="fa-solid fa-quote-left fa-2xl txt-violet"></i>
                                 </div>
+                                <!-- About Us Title 2 -->
                                 <h2 class="txt-violet">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h2>
                                 <!-- About Us Linkedin Button -->
                                 <a href="#" class="txt-white bgcolor-violet">
@@ -252,12 +305,14 @@
                         <div class="col">
                             <div class="get-started-content txt-center">
                                 <span class="txt-lightblue">GET STARTED</span>
+                                <!-- Get Started Titles -->
                                 <h3 class="txt-white">Simple, Transparent Pricing</h3>
                                 <h2 class="txt-orange">It's Free!</h2>
+                                <!-- Get Started Paragrafo -->
                                 <p class="txt-white">We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
                                 <!-- Get Started Button -->
                                 <a href="#" class="txt-violet bgcolor-white bold">Get Started</a>
-                                <!-- Privacy Policy -->
+                                <!-- Copyright and Privacy Policy -->
                                 <span class="txt-white">
                                     Copyright 2021 Boolean &#9679; Classe XX &#9679;
                                     <a href="#" class="txt-white">Privacy policy</a>
